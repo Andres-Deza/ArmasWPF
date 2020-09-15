@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ArmasDBModelStoreContainer" CdmEntityContainer="ArmasDBEntities">
+    <EntitySetMapping Name="ARMA">
+      <EntityTypeMapping TypeName="ArmasDBModel.ARMA">
+        <MappingFragment StoreEntitySet="ARMA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="CATEGORIA" ColumnName="CATEGORIA" />
+          <ScalarProperty Name="CLIENTE" ColumnName="CLIENTE" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+          <ScalarProperty Name="ANIO_CREACION" ColumnName="ANIO_CREACION" />
+          <ScalarProperty Name="FECHA_VENTA" ColumnName="FECHA_VENTA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
